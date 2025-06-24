@@ -6,7 +6,7 @@ Build a complete text classification pipeline using Hugging Face Transformers. D
 ---
 
 ## 📋 Task Overview
-- Select a small labeled text dataset (e.g., movie reviews, sentiment analysis)
+- Select a small labeled text dataset (e.g., movie reviews, sentiment analysis, classification of text)
 - Preprocess and tokenize using Hugging Face Transformers
 - Fine-tune a pre-trained model (DistilBERT recommended)
 - Evaluate using F1, Precision, and Recall metrics
@@ -20,24 +20,16 @@ Build a complete text classification pipeline using Hugging Face Transformers. D
 ML-NLP-Engineer/
 │
 ├── notebooks/
-│ ├── data_exploration.ipynb # Dataset analysis, class distribution, sample exploration
-│ ├── model_training.ipynb # Model training and experimentation
-│ └── evaluation_analysis.ipynb # Results analysis and visualizations
+│ ├──Text_classification.ipynb
 │
 ├── src/
-│ ├── train_model.py # Training script using Hugging Face Trainer
-│ ├── data_preprocessing.py # Cleaning, tokenization, dataset prep
-│ ├── model_utils.py # Save/load helpers
-│ └── config.py # Hyperparameters and configuration
+│ ├── dataset.csv
 │
 ├── models/
 │ └── spam_model/ # Fine-tuned model weights and tokenizer files
 │ └── .gitkeep # Empty marker to retain folder
 │
 ├── reports/
-│ ├── model_report.md # Architecture decisions, insights
-│ ├── evaluation_metrics.json # Metrics like F1, Precision, Recall
-│ └── confusion_matrix.png # Visualization of classification
 │
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
@@ -89,15 +81,6 @@ At least 2 classes
 
 English text (Bonus: multilingual)
 
-Suggested Datasets:
-
-IMDB Movie Reviews (Sentiment)
-
-AG News (Topic Classification)
-
-Yelp Reviews (Sentiment)
-
-Twitter Sentiment Datasets
 
 ✅ Deliverables
 ✅ Fine-tuned model and tokenizer
