@@ -1,4 +1,4 @@
-# 🤖 ML/NLP Engineer Intern Challenge
+# 🤖 ML/NLP Azure Project
 
 ## 🎯 Objective
 Build a complete text classification pipeline using Hugging Face Transformers. Demonstrate your skills in NLP preprocessing, model fine-tuning, and evaluation.
