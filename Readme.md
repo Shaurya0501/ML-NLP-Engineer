@@ -1,13 +1,13 @@
-# 🤖 ML/NLP Text Classification Project
+#  ML/NLP Text Classification Project
 
-## 📌 Overview
+## Overview
 
 This project implements a text classification pipeline using Hugging Face Transformers (DistilBERT).  
 It includes data preprocessing, model fine-tuning, evaluation, and Azure-ready deployment configuration.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - Fine-tune a pre-trained DistilBERT model
 - Perform supervised text classification
@@ -16,7 +16,7 @@ It includes data preprocessing, model fine-tuning, evaluation, and Azure-ready d
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ML-NLP-Engineer/
 │
@@ -30,9 +30,9 @@ ML-NLP-Engineer/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
-### 1️⃣ Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
