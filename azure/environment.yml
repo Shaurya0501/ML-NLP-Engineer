@@ -1,0 +1,9 @@
+name: hf-nlp-env
+dependencies:
+  - python=3.10
+  - pip:
+      - torch
+      - transformers
+      - scikit-learn
+      - fastapi
+      - uvicorn
