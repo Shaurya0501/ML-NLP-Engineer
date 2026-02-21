@@ -1,0 +1,9 @@
+{
+  "appSettings": [
+    {
+      "name": "MODEL_PATH",
+      "value": "models/spam_model",
+      "slotSetting": false
+    }
+  ]
+}
